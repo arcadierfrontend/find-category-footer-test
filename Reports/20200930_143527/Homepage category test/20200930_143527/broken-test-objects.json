@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next\u0027])[1]/following::div[9]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row_neighbor.png"
+      "pathToScreenshot": "Reports/20200930_143527/Homepage category test/20200930_143527/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row_neighbor.png"
     }
   ]
 }

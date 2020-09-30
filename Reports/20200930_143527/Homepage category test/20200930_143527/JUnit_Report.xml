@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage category test" time="138.134" tests="7" failures="0" errors="0">
+   <testsuite name="Homepage category test" tests="7" failures="0" errors="0" time="138.134" timestamp="2020-09-30 14:35:36" hostname="martinrahardja - 192.168.100.3" id="Test Suites/Homepage category test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/martinrahardja/Documents/Github/find-category-footer-test/Reports/20200930_143527/Homepage category test/20200930_143527"/>
+         <property name="logFiles" value="/Users/martinrahardja/Documents/Github/find-category-footer-test/Reports/20200930_143527/Homepage category test/20200930_143527/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="martinrahardja - 192.168.100.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="10f7c799c30d37601981ba51bcfcbbed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001" time="10.784" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:35:37 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001
+
+2020-09-30 14:35:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:35:38 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:35:38 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:35:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:35:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:35:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:35:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:35:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div.section-content"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.section-content' is visible
+
+2020-09-30 14:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.section-content' is visible
+
+2020-09-30 14:35:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:35:47 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:35:48 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:35:48 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:35:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002" time="40.048" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:35:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002
+
+2020-09-30 14:35:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:35:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:35:48 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:35:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:35:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:35:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:35:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div.row"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' is visible
+
+2020-09-30 14:35:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:36:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-30 14:36:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row'. Try using Self-healing.
+
+2020-09-30 14:36:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div'.
+
+2020-09-30 14:36:26 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[9]'.
+
+2020-09-30 14:36:27 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/martinrahardja/Documents/Github/find-category-footer-test/Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row_neighbor.png
+
+2020-09-30 14:36:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[9]'.
+
+2020-09-30 14:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' is visible
+
+2020-09-30 14:36:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:36:28 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:36:28 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:36:28 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:36:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003" time="27.67" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:36:28 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003
+
+2020-09-30 14:36:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:36:28 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:36:28 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:36:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:36:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:36:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:36:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:36:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)' is visible
+
+2020-09-30 14:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:36:35 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)' is visible
+
+2020-09-30 14:36:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is visible
+
+2020-09-30 14:36:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is visible
+
+2020-09-30 14:36:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)"), "ANTIGEN (Ag)"): Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' are matched.
+
+2020-09-30 14:36:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' are matched.
+
+2020-09-30 14:36:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)")): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is clickable
+
+2020-09-30 14:36:41 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is clickable
+
+2020-09-30 14:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)")): Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is clicked on
+
+2020-09-30 14:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' is clicked on
+
+2020-09-30 14:36:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_Antigen_Search"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Antigen_Search' is visible
+
+2020-09-30 14:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Antigen_Search' is visible
+
+2020-09-30 14:36:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:36:55 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:36:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:36:56 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:36:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004" time="20.009" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:36:56 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004
+
+2020-09-30 14:36:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:36:56 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:36:56 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:36:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:36:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:37:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)' is visible
+
+2020-09-30 14:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)' is visible
+
+2020-09-30 14:37:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is visible
+
+2020-09-30 14:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is visible
+
+2020-09-30 14:37:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)"), "ANTIBODY (Ab)"): Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' are matched.
+
+2020-09-30 14:37:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' are matched.
+
+2020-09-30 14:37:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)")): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is clickable
+
+2020-09-30 14:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is clickable
+
+2020-09-30 14:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)")): Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is clicked on
+
+2020-09-30 14:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' is clicked on
+
+2020-09-30 14:37:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_Antibody_Search"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Antibody_Search' is visible
+
+2020-09-30 14:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Antibody_Search' is visible
+
+2020-09-30 14:37:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:37:15 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:37:15 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:37:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:37:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005" time="18.688" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:37:16 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005
+
+2020-09-30 14:37:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:16 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:37:16 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:37:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:37:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-09-30 14:37:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-09-30 14:37:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-09-30 14:37:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:22 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-09-30 14:37:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)"), "MOLECULAR ASSAYS (NAT)"): Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-09-30 14:37:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-09-30 14:37:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)")): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-09-30 14:37:22 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-09-30 14:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)")): Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is clicked on
+
+2020-09-30 14:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' is clicked on
+
+2020-09-30 14:37:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_Molecular assays_Search"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Molecular assays_Search' is visible
+
+2020-09-30 14:37:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Molecular assays_Search' is visible
+
+2020-09-30 14:37:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:37:34 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:37:34 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:37:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:37:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006" time="10.146" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:37:34 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006
+
+2020-09-30 14:37:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:35 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:37:35 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:37:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT' is visible
+
+2020-09-30 14:37:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT' is visible
+
+2020-09-30 14:37:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is visible
+
+2020-09-30 14:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is visible
+
+2020-09-30 14:37:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT"), "SELF-COLLECTION KIT"): Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' are matched.
+
+2020-09-30 14:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' are matched.
+
+2020-09-30 14:37:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT")): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is clickable
+
+2020-09-30 14:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is clickable
+
+2020-09-30 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT")): Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is clicked on
+
+2020-09-30 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' is clicked on
+
+2020-09-30 14:37:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_Self-collection_kit_Search"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Self-collection_kit_Search' is visible
+
+2020-09-30 14:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Self-collection_kit_Search' is visible
+
+2020-09-30 14:37:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:37:44 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:37:44 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:37:44 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:37:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007" time="10.161" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:37:44 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007
+
+2020-09-30 14:37:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:45 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2020-09-30 14:37:45 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:37:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:37:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:37:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2020-09-30 14:37:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING' is visible
+
+2020-09-30 14:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING' is visible
+
+2020-09-30 14:37:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is visible
+
+2020-09-30 14:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is visible
+
+2020-09-30 14:37:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING"), "SEQUENCING"): Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are matched.
+
+2020-09-30 14:37:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are matched.
+
+2020-09-30 14:37:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING")): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is clickable
+
+2020-09-30 14:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is clickable
+
+2020-09-30 14:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING")): Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is clicked on
+
+2020-09-30 14:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is clicked on
+
+2020-09-30 14:37:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_Sequencing_Search"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Sequencing_Search' is visible
+
+2020-09-30 14:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_Sequencing_Search' is visible
+
+2020-09-30 14:37:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-09-30 14:37:54 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2020-09-30 14:37:54 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-09-30 14:37:55 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:37:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-30 14:35:36 - [TEST_SUITE][PASSED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
