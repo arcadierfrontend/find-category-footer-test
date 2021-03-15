@@ -12,45 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>21fe82d7-4ed4-40ab-80da-153c3f34f26c</testSuiteGuid>
    <testCaseLink>
-      <guid>cb00ac41-7c5e-4356-a76f-3b3d48fa5c69</guid>
+      <guid>3e61e8fd-7b36-4705-b0b7-a6f45dd34df3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe711ce8-b260-4ca5-8ff3-fe07c5878e71</guid>
+      <guid>a0a3007d-2dec-459e-9210-9045cd40837a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5cdc551-dfe2-437b-b88a-cc3d01622810</guid>
+      <guid>f4c8f30a-e6b4-482a-945f-692495a7a924</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ababf6cc-a2b4-4979-89a8-33b0f88d9e53</guid>
+      <guid>ac3c5af6-f911-4cf6-8eb6-4f858cafb5b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>299c482c-5cc4-4501-ac72-6a04737a356d</guid>
+      <guid>99b89511-9682-4754-8ddf-0cc5c339a8f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fcd9bc1c-7339-40b6-aaa3-4a1a5c68c0d6</guid>
+      <guid>8ca1d5d4-8405-48d4-87a3-0363e717ccb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>525d07cb-0d4f-4dfc-9e5f-c5ae117fe16a</guid>
+      <guid>336a12a3-30da-4a51-8c0d-f575582b5672</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007</testCaseId>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

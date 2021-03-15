@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Custom footer test,Chrome 89.0.4389.82,,,2021-03-12 15:55:37,2021-03-12 16:00:05,4m - 28.137s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/Custom Footer,Chrome 89.0.4389.82,,,2021-03-12 15:55:37,2021-03-12 15:56:00,22.677s,PASSED
+"openBrowser(""https://diagnostics.sandbox.arcadier.io/"")",Chrome 89.0.4389.82,,,2021-03-12 15:55:38,2021-03-12 15:55:53,14.837s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Footer Container""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:53,2021-03-12 15:55:54,1.186s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Custom Footer""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:54,2021-03-12 15:55:54,0.617s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Widget""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:54,2021-03-12 15:55:55,0.746s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Logo""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:55,2021-03-12 15:55:55,0.286s,PASSED
+"COMPANY = getText(findTestObject(""Complete Footer Object/Page_diagnostics/COMPANY Title""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:55,2021-03-12 15:55:56,0.288s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:56,2021-03-12 15:55:56,0.284s,PASSED
+"About = getText(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:56,2021-03-12 15:55:56,0.281s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:56,2021-03-12 15:55:56,0.286s,PASSED
+"Privacy = getText(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:56,2021-03-12 15:55:57,0.276s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:57,2021-03-12 15:55:57,0.281s,PASSED
+"Terms = getText(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:57,2021-03-12 15:55:57,0.276s,PASSED
+"SOCIAL = getText(findTestObject(""Complete Footer Object/Page_diagnostics/SOCIAL Title""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:57,2021-03-12 15:55:58,0.280s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:58,2021-03-12 15:55:58,0.288s,PASSED
+"Facebook = getText(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:58,2021-03-12 15:55:58,0.280s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:58,2021-03-12 15:55:58,0.290s,PASSED
+"Linkedin = getText(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:58,2021-03-12 15:55:59,0.276s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:55:59,2021-03-12 15:55:59,0.285s,PASSED
+"Twitter = getText(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:55:59,2021-03-12 15:55:59,0.274s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-12 15:55:59,2021-03-12 15:56:00,0.634s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_001,Chrome 89.0.4389.82,,,2021-03-12 15:56:00,2021-03-12 15:56:26,26.049s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:00,2021-03-12 15:56:24,24.175s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Footer Container""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:56:24,2021-03-12 15:56:25,0.800s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:25,2021-03-12 15:56:26,0.895s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_002,Chrome 89.0.4389.82,,,2021-03-12 15:56:26,2021-03-12 15:56:43,16.581s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:26,2021-03-12 15:56:41,15.198s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Custom Footer""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:56:41,2021-03-12 15:56:42,0.493s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:42,2021-03-12 15:56:43,0.689s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_003,Chrome 89.0.4389.82,,,2021-03-12 15:56:43,2021-03-12 15:56:57,14.648s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:43,2021-03-12 15:56:56,13.178s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Widget""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:56:56,2021-03-12 15:56:57,0.596s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:57,2021-03-12 15:56:57,0.700s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_004,Chrome 89.0.4389.82,,,2021-03-12 15:56:57,2021-03-12 15:57:12,15.248s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:56:57,2021-03-12 15:57:11,13.891s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Logo""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:57:11,2021-03-12 15:57:12,0.491s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:12,2021-03-12 15:57:12,0.697s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_005,Chrome 89.0.4389.82,,,2021-03-12 15:57:12,2021-03-12 15:57:27,14.863s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:13,2021-03-12 15:57:26,13.122s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/COMPANY Title""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:57:26,2021-03-12 15:57:26,0.592s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/COMPANY Title""), ""COMPANY"")",Chrome 89.0.4389.82,,,2021-03-12 15:57:26,2021-03-12 15:57:27,0.278s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:27,2021-03-12 15:57:27,0.697s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_006,Chrome 89.0.4389.82,,,2021-03-12 15:57:27,2021-03-12 15:57:42,14.621s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:28,2021-03-12 15:57:40,12.986s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/SOCIAL Title""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:57:40,2021-03-12 15:57:41,0.494s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/SOCIAL Title""), ""SOCIAL"")",Chrome 89.0.4389.82,,,2021-03-12 15:57:41,2021-03-12 15:57:41,0.271s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:41,2021-03-12 15:57:42,0.701s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_007,Chrome 89.0.4389.82,,,2021-03-12 15:57:42,2021-03-12 15:57:56,13.704s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:42,2021-03-12 15:57:54,12.261s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Coampany Container""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:57:54,2021-03-12 15:57:55,0.595s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:55,2021-03-12 15:57:56,0.679s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_008,Chrome 89.0.4389.82,,,2021-03-12 15:57:56,2021-03-12 15:58:12,16.641s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:57:56,2021-03-12 15:58:09,13.130s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:58:09,2021-03-12 15:58:10,0.592s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""), ""About"")",Chrome 89.0.4389.82,,,2021-03-12 15:58:10,2021-03-12 15:58:10,0.272s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:10,2021-03-12 15:58:10,0.273s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:10,2021-03-12 15:58:10,0.303s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/About Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:10,2021-03-12 15:58:12,1.204s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:12,2021-03-12 15:58:12,0.684s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_009,Chrome 89.0.4389.82,,,2021-03-12 15:58:12,2021-03-12 15:58:30,17.443s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:12,2021-03-12 15:58:26,13.988s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:58:26,2021-03-12 15:58:27,0.588s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""), ""Privacy Policy"")",Chrome 89.0.4389.82,,,2021-03-12 15:58:27,2021-03-12 15:58:27,0.267s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:27,2021-03-12 15:58:28,0.265s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:28,2021-03-12 15:58:28,0.302s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/Privacy Policy Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:28,2021-03-12 15:58:29,1.179s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:29,2021-03-12 15:58:30,0.679s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_010,Chrome 89.0.4389.82,,,2021-03-12 15:58:30,2021-03-12 15:58:48,18.050s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:30,2021-03-12 15:58:44,14.067s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:58:44,2021-03-12 15:58:45,1.103s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""), ""Terms of Service"")",Chrome 89.0.4389.82,,,2021-03-12 15:58:45,2021-03-12 15:58:45,0.274s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:45,2021-03-12 15:58:46,0.267s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:46,2021-03-12 15:58:46,0.302s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/Terms of Service Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:58:46,2021-03-12 15:58:47,1.186s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:47,2021-03-12 15:58:48,0.679s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_011,Chrome 89.0.4389.82,,,2021-03-12 15:58:48,2021-03-12 15:59:05,17.199s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:58:48,2021-03-12 15:59:02,14.104s,PASSED
+"waitForElementPresent(findTestObject(""Complete Footer Object/Page_diagnostics/Social Media Container""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:59:02,2021-03-12 15:59:04,2.220s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:04,2021-03-12 15:59:05,0.694s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_012,Chrome 89.0.4389.82,,,2021-03-12 15:59:05,2021-03-12 15:59:33,28.327s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:05,2021-03-12 15:59:22,16.338s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:59:22,2021-03-12 15:59:24,2.124s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""), ""Twitter"")",Chrome 89.0.4389.82,,,2021-03-12 15:59:24,2021-03-12 15:59:26,2.013s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:26,2021-03-12 15:59:28,2.008s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:28,2021-03-12 15:59:30,2.031s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/Twitter Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:30,2021-03-12 15:59:33,2.946s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:33,2021-03-12 15:59:33,0.676s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_013,Chrome 89.0.4389.82,,,2021-03-12 15:59:33,2021-03-12 15:59:49,15.874s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:34,2021-03-12 15:59:46,12.679s,PASSED
+"waitForElementPresent(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 15:59:46,2021-03-12 15:59:47,0.480s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""), ""Facebook"")",Chrome 89.0.4389.82,,,2021-03-12 15:59:47,2021-03-12 15:59:47,0.276s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:47,2021-03-12 15:59:47,0.267s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:47,2021-03-12 15:59:48,0.300s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/Facebook Link""))",Chrome 89.0.4389.82,,,2021-03-12 15:59:48,2021-03-12 15:59:49,1.019s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:49,2021-03-12 15:59:49,0.683s,PASSED
+,,,,,,,
+Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014,Chrome 89.0.4389.82,,,2021-03-12 15:59:49,2021-03-12 16:00:05,15.967s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 15:59:49,2021-03-12 16:00:02,12.710s,PASSED
+"waitForElementVisible(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""), 0)",Chrome 89.0.4389.82,,,2021-03-12 16:00:02,2021-03-12 16:00:03,0.492s,PASSED
+"verifyElementText(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""), ""Linkedin"")",Chrome 89.0.4389.82,,,2021-03-12 16:00:03,2021-03-12 16:00:03,0.271s,PASSED
+"verifyElementClickable(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""))",Chrome 89.0.4389.82,,,2021-03-12 16:00:03,2021-03-12 16:00:03,0.265s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/a_Accept Cookies""))",Chrome 89.0.4389.82,,,2021-03-12 16:00:03,2021-03-12 16:00:03,0.295s,PASSED
+"click(findTestObject(""Complete Footer Object/Page_diagnostics/Linkedin Link""))",Chrome 89.0.4389.82,,,2021-03-12 16:00:03,2021-03-12 16:00:04,1.056s,PASSED
+"callTestCase(findTestCase(""Custom Footer Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.82,,,2021-03-12 16:00:04,2021-03-12 16:00:05,0.700s,PASSED

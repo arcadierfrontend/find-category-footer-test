@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Custom footer test" time="268.406" tests="15" failures="0" errors="0">
+   <testsuite name="Custom footer test" tests="15" failures="0" errors="0" time="268.406" timestamp="2021-03-12 15:55:37" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Custom footer test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210312_155525\\Custom footer test\\20210312_155525"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210312_155525\\Custom footer test\\20210312_155525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="67c8ce460ef56c742e50dc96bb8f8fa5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Footer Test Case/Custom Footer" time="22.677" classname="Test Cases/Custom Footer Test Case/Custom Footer" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:55:37 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/Custom Footer: Test Cases/Custom Footer Test Case/Custom Footer
+
+2021-03-12 15:55:38 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.sandbox.arcadier.io/"): Browser is opened with url: 'https://diagnostics.sandbox.arcadier.io/'
+
+2021-03-12 15:55:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:55:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:55:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.sandbox.arcadier.io/'
+
+2021-03-12 15:55:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Footer Container"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Footer Container' is visible
+
+2021-03-12 15:55:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Footer Container' is visible
+
+2021-03-12 15:55:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Custom Footer"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Custom Footer' is visible
+
+2021-03-12 15:55:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Custom Footer' is visible
+
+2021-03-12 15:55:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Widget"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Widget' is visible
+
+2021-03-12 15:55:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Widget' is visible
+
+2021-03-12 15:55:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Logo"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Logo' is visible
+
+2021-03-12 15:55:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Logo' is visible
+
+2021-03-12 15:55:55 - [TEST_STEP][PASSED] - COMPANY = getText(findTestObject("Complete Footer Object/Page_diagnostics/COMPANY Title")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' is: 'COMPANY'
+
+2021-03-12 15:55:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' is: 'COMPANY'
+
+2021-03-12 15:55:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/About Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is visible
+
+2021-03-12 15:55:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is visible
+
+2021-03-12 15:55:56 - [TEST_STEP][PASSED] - About = getText(findTestObject("Complete Footer Object/Page_diagnostics/About Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is: 'About'
+
+2021-03-12 15:55:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is: 'About'
+
+2021-03-12 15:55:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is visible
+
+2021-03-12 15:55:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is visible
+
+2021-03-12 15:55:56 - [TEST_STEP][PASSED] - Privacy = getText(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is: 'Privacy Policy'
+
+2021-03-12 15:55:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is: 'Privacy Policy'
+
+2021-03-12 15:55:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is visible
+
+2021-03-12 15:55:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:57 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is visible
+
+2021-03-12 15:55:57 - [TEST_STEP][PASSED] - Terms = getText(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is: 'Terms of Service'
+
+2021-03-12 15:55:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is: 'Terms of Service'
+
+2021-03-12 15:55:57 - [TEST_STEP][PASSED] - SOCIAL = getText(findTestObject("Complete Footer Object/Page_diagnostics/SOCIAL Title")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' is: 'SOCIAL'
+
+2021-03-12 15:55:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' is: 'SOCIAL'
+
+2021-03-12 15:55:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is visible
+
+2021-03-12 15:55:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is visible
+
+2021-03-12 15:55:58 - [TEST_STEP][PASSED] - Facebook = getText(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is: 'Facebook'
+
+2021-03-12 15:55:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is: 'Facebook'
+
+2021-03-12 15:55:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is visible
+
+2021-03-12 15:55:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is visible
+
+2021-03-12 15:55:58 - [TEST_STEP][PASSED] - Linkedin = getText(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is: 'Linkedin'
+
+2021-03-12 15:55:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is: 'Linkedin'
+
+2021-03-12 15:55:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is visible
+
+2021-03-12 15:55:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is visible
+
+2021-03-12 15:55:59 - [TEST_STEP][PASSED] - Twitter = getText(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link")): Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is: 'Twitter'
+
+2021-03-12 15:55:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is: 'Twitter'
+
+2021-03-12 15:55:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-12 15:56:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_001" time="26.049" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:56:00 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_001: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_001
+
+2021-03-12 15:56:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:00 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:56:00 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:56:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:56:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Footer Container"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Footer Container' is visible
+
+2021-03-12 15:56:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Footer Container' is visible
+
+2021-03-12 15:56:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:56:25 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:56:25 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:56:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:56:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_002" time="16.581" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:56:26 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_002: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_002
+
+2021-03-12 15:56:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:26 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:56:26 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:56:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:56:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Custom Footer"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Custom Footer' is visible
+
+2021-03-12 15:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Custom Footer' is visible
+
+2021-03-12 15:56:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:56:42 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:56:42 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:56:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:56:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_003" time="14.648" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_003" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:56:43 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_003: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_003
+
+2021-03-12 15:56:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:43 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:56:43 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:56:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:56:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Widget"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Widget' is visible
+
+2021-03-12 15:56:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Widget' is visible
+
+2021-03-12 15:56:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:56:57 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:56:57 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:56:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:56:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_004" time="15.248" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_004" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:56:57 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_004: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_004
+
+2021-03-12 15:56:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:56:57 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:56:57 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:56:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:56:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:57:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Logo"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Logo' is visible
+
+2021-03-12 15:57:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:57:12 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Logo' is visible
+
+2021-03-12 15:57:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:57:12 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:57:12 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:57:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:57:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_005" time="14.863" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_005" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:57:12 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_005: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_005
+
+2021-03-12 15:57:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:13 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:57:13 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:57:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:57:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/COMPANY Title"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' is visible
+
+2021-03-12 15:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' is visible
+
+2021-03-12 15:57:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/COMPANY Title"), "COMPANY"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' are matched.
+
+2021-03-12 15:57:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/COMPANY Title' are matched.
+
+2021-03-12 15:57:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:57:27 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:57:27 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:57:27 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:57:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_006" time="14.621" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_006" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:57:27 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_006: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_006
+
+2021-03-12 15:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:28 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:57:28 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:57:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:57:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/SOCIAL Title"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' is visible
+
+2021-03-12 15:57:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:57:41 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' is visible
+
+2021-03-12 15:57:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/SOCIAL Title"), "SOCIAL"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' are matched.
+
+2021-03-12 15:57:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/SOCIAL Title' are matched.
+
+2021-03-12 15:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:57:41 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:57:41 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:57:42 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:57:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_007" time="13.704" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_007" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:57:42 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_007: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_007
+
+2021-03-12 15:57:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:42 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:57:42 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:57:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:57:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Coampany Container"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Coampany Container' is visible
+
+2021-03-12 15:57:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Coampany Container' is visible
+
+2021-03-12 15:57:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:57:55 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:57:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:57:56 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:57:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_008" time="16.641" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_008" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:57:56 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_008: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_008
+
+2021-03-12 15:57:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:57:56 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:57:56 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:57:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:57:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:58:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/About Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is visible
+
+2021-03-12 15:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is visible
+
+2021-03-12 15:58:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/About Link"), "About"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' are matched.
+
+2021-03-12 15:58:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' are matched.
+
+2021-03-12 15:58:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/About Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is clickable
+
+2021-03-12 15:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is clickable
+
+2021-03-12 15:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/About Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is clicked on
+
+2021-03-12 15:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/About Link' is clicked on
+
+2021-03-12 15:58:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:58:12 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:58:12 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:58:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:58:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_009" time="17.443" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_009" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:58:12 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_009: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_009
+
+2021-03-12 15:58:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:13 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:58:13 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:58:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:58:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is visible
+
+2021-03-12 15:58:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is visible
+
+2021-03-12 15:58:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link"), "Privacy Policy"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' are matched.
+
+2021-03-12 15:58:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' are matched.
+
+2021-03-12 15:58:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is clickable
+
+2021-03-12 15:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is clickable
+
+2021-03-12 15:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/Privacy Policy Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is clicked on
+
+2021-03-12 15:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Privacy Policy Link' is clicked on
+
+2021-03-12 15:58:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:58:29 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:58:29 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:58:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:58:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_010" time="18.05" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_010" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:58:30 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_010: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_010
+
+2021-03-12 15:58:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:30 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:58:30 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:58:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:58:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is visible
+
+2021-03-12 15:58:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is visible
+
+2021-03-12 15:58:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link"), "Terms of Service"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' are matched.
+
+2021-03-12 15:58:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' are matched.
+
+2021-03-12 15:58:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is clickable
+
+2021-03-12 15:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is clickable
+
+2021-03-12 15:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/Terms of Service Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is clicked on
+
+2021-03-12 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Terms of Service Link' is clicked on
+
+2021-03-12 15:58:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:58:47 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:58:47 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:58:48 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:58:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_011" time="17.199" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_011" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:58:48 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_011: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_011
+
+2021-03-12 15:58:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:58:48 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:58:48 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:58:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:58:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:59:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Complete Footer Object/Page_diagnostics/Social Media Container"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Social Media Container' is present
+
+2021-03-12 15:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Social Media Container' is present
+
+2021-03-12 15:59:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:59:04 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:59:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:59:05 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:59:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_012" time="28.327" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_012" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:59:05 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_012: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_012
+
+2021-03-12 15:59:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:05 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:59:05 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:59:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:59:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is visible
+
+2021-03-12 15:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:59:24 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is visible
+
+2021-03-12 15:59:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link"), "Twitter"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' are matched.
+
+2021-03-12 15:59:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' are matched.
+
+2021-03-12 15:59:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is clickable
+
+2021-03-12 15:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is clickable
+
+2021-03-12 15:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/Twitter Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is clicked on
+
+2021-03-12 15:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Twitter Link' is clicked on
+
+2021-03-12 15:59:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:59:33 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:59:33 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:59:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:59:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_013" time="15.874" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_013" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:59:33 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_013: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_013
+
+2021-03-12 15:59:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:34 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:59:34 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:59:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 15:59:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is present
+
+2021-03-12 15:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 15:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is present
+
+2021-03-12 15:59:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link"), "Facebook"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' are matched.
+
+2021-03-12 15:59:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' are matched.
+
+2021-03-12 15:59:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is clickable
+
+2021-03-12 15:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is clickable
+
+2021-03-12 15:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 15:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/Facebook Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is clicked on
+
+2021-03-12 15:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Facebook Link' is clicked on
+
+2021-03-12 15:59:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 15:59:49 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 15:59:49 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 15:59:49 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 15:59:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014" time="15.967" classname="Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014" status="PASSED">
+         <system-out><![CDATA[2021-03-12 15:59:49 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014
+
+2021-03-12 15:59:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 15:59:49 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-12 15:59:49 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 15:59:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-12 15:59:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-12 16:00:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-03-12 16:00:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-12 16:00:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link"), 0): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is visible
+
+2021-03-12 16:00:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-12 16:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is visible
+
+2021-03-12 16:00:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link"), "Linkedin"): Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' are matched.
+
+2021-03-12 16:00:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' are matched.
+
+2021-03-12 16:00:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link")): Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is clickable
+
+2021-03-12 16:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is clickable
+
+2021-03-12 16:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 16:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2021-03-12 16:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Complete Footer Object/Page_diagnostics/Linkedin Link")): Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is clicked on
+
+2021-03-12 16:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Complete Footer Object/Page_diagnostics/Linkedin Link' is clicked on
+
+2021-03-12 16:00:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Footer Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-12 16:00:05 - [TEST_CASE][PASSED] - Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-12 16:00:05 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-12 16:00:05 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-12 16:00:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Footer Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-12 15:55:37 - [TEST_SUITE][PASSED] - Custom footer test: Test Cases/Custom Footer Test Case/TEST CASE/TC_FOOTER_UI_014]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

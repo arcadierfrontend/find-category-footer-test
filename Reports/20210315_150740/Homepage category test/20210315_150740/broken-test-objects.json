@@ -2,43 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row",
-      "brokenLocator": "//div[@id\u003d\u0027react_0HM2UBJPPNECH\u0027]/div/div/div[2]/div/div/div/div/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next\u0027])[1]/following::div[9]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)",
-      "brokenLocator": "//*[(text() \u003d \u0027\n\t\t\t\t\n\t\t\t\t\tANTIGEN (Ag)\n\t\t\t\t\n\t\t\t\u0027 or . \u003d \u0027\n\t\t\t\t\n\t\t\t\t\tANTIGEN (Ag)\n\t\t\t\t\n\t\t\t\u0027)]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027MALARIA DIAGNOSTICS\u0027])[2]/following::div[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING",
-      "brokenLocator": "//*[(text() \u003d \u0027SEQUENCING\u0027 or . \u003d \u0027SEQUENCING\u0027)]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027NTD DIAGNOSTICS\u0027])[3]/preceding::a[2]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING_neighbor.png"
-    },
-    {
-      "approved": true,
       "testObjectId": "Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS",
       "brokenLocator": "//div[4]/div/div/div/div[2]/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/a[count(. | //*[(text() \u003d \u0027TUBERCULOSIS DIAGNOSTICS\u0027 or . \u003d \u0027TUBERCULOSIS DIAGNOSTICS\u0027)]) \u003d count(//*[(text() \u003d \u0027TUBERCULOSIS DIAGNOSTICS\u0027 or . \u003d \u0027TUBERCULOSIS DIAGNOSTICS\u0027)])]",
       "brokenLocatorMethod": "BASIC",
       "proposedLocator": "(//a[contains(text(),\u0027TUBERCULOSIS DIAGNOSTICS\u0027)])[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_link.png"
+      "pathToScreenshot": "Reports/20210315_150740/Homepage category test/20210315_150740/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_link.png"
     },
     {
       "approved": true,
@@ -48,7 +18,7 @@
       "proposedLocator": "(//a[contains(text(),\u0027DIABETES DIAGNOSTICS\u0027)])[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_DIABETES DIAGNOSTICS_link.png"
+      "pathToScreenshot": "Reports/20210315_150740/Homepage category test/20210315_150740/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_DIABETES DIAGNOSTICS_link.png"
     },
     {
       "approved": true,
@@ -58,7 +28,7 @@
       "proposedLocator": "(//a[contains(text(),\u0027HEPATITIS C \u0026 HIV DIAGNOSTICS\u0027)])[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS_link.png"
+      "pathToScreenshot": "Reports/20210315_150740/Homepage category test/20210315_150740/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS_link.png"
     },
     {
       "approved": true,
@@ -68,7 +38,7 @@
       "proposedLocator": "(//a[contains(text(),\u0027NTD DIAGNOSTICS\u0027)])[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS_link.png"
+      "pathToScreenshot": "Reports/20210315_150740/Homepage category test/20210315_150740/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS_link.png"
     },
     {
       "approved": true,
@@ -78,7 +48,7 @@
       "proposedLocator": "(//a[contains(text(),\u0027MALARIA DIAGNOSTICS\u0027)])[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_MALARIA DIAGNOSTICS_link.png"
+      "pathToScreenshot": "Reports/20210315_150740/Homepage category test/20210315_150740/Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_MALARIA DIAGNOSTICS_link.png"
     }
   ]
 }

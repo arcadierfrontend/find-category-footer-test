@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage category test" time="683.266" tests="7" failures="5" errors="0">
+   <testsuite name="Homepage category test" tests="7" failures="5" errors="0" time="683.266" timestamp="2021-03-15 13:46:38" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Homepage category test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\execution0.log"/>
+         <property name="attachments" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787409050.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787409308.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787526648.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787526940.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787647060.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787647314.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787764944.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787765228.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787879654.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787879925.png"/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fc4750988f9e54215560eb464f5cfcb8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001" time="19.357" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-03-15 13:46:38 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_001
+
+2021-03-15 13:46:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:46:38 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:46:39 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:46:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:46:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:46:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:46:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:46:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div.section-content"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.section-content' is visible
+
+2021-03-15 13:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:46:56 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.section-content' is visible
+
+2021-03-15 13:46:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-15 13:46:56 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-15 13:46:57 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-15 13:46:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-15 13:46:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002" time="45.447" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-03-15 13:46:57 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_002
+
+2021-03-15 13:46:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:46:58 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:46:58 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:46:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:46:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:47:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:47:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:47:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div.row"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' is visible
+
+2021-03-15 13:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:47:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:47:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row'. Try using Self-healing.
+
+2021-03-15 13:47:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[9]'.
+
+2021-03-15 13:47:42 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div.row' is visible
+
+2021-03-15 13:47:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-03-15 13:47:42 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-03-15 13:47:42 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-03-15 13:47:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-15 13:47:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003" time="146.258" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-15 13:47:43 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-15 13:47:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:47:43 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:47:43 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:47:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:47:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:47:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:47:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:47:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)' is not visible after 30 second(s)
+
+2021-03-15 13:47:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:48:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '
+				
+					ANTIGEN (Ag)
+				
+			' or . = '
+				
+					ANTIGEN (Ag)
+				
+			')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:48:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)'. Try using Self-healing.
+
+2021-03-15 13:48:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:48:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]'.
+
+2021-03-15 13:48:30 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::div[1]'.
+
+2021-03-15 13:48:30 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: K:/Work/GitHub/UpdatedOne/find-category-footer-test/Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)_neighbor.png
+
+2021-03-15 13:48:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::div[1]'.
+
+2021-03-15 13:49:00 - [MESSAGE][WARNING] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIGEN (Ag)' is not visible after 30 second(s)
+
+2021-03-15 13:49:00 - [TEST_STEP][ERROR] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+
+2021-03-15 13:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:49:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:49:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)'. Try using Self-healing.
+
+2021-03-15 13:49:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:49:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]/div/a'.
+
+2021-03-15 13:49:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'ANTIGEN (Ag)')])[2]'.
+
+2021-03-15 13:49:33 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::a[1]'.
+
+2021-03-15 13:49:33 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 849e5b050f1f2f1aaa307e5fea9547bf.
+
+2021-03-15 13:49:33 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 849e5b050f1f2f1aaa307e5fea9547bf.
+
+2021-03-15 13:49:33 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:49:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.cate-name.custom-cate-name > a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:49:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+
+2021-03-15 13:49:34 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)"), "ANTIGEN (Ag)"): Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-15 13:50:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)'. Try using Self-healing.
+
+2021-03-15 13:50:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[7]/div/a'.
+
+2021-03-15 13:50:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'ANTIGEN (Ag)')])[2]'.
+
+2021-03-15 13:50:07 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::a[1]'.
+
+2021-03-15 13:50:07 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 849e5b050f1f2f1aaa307e5fea9547bf.
+
+2021-03-15 13:50:07 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 849e5b050f1f2f1aaa307e5fea9547bf.
+
+2021-03-15 13:50:07 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:50:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.cate-name.custom-cate-name > a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:09 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787409050.png]]
+
+2021-03-15 13:50:09 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787409308.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-15 13:47:43 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004" time="117.62" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-15 13:50:09 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-15 13:50:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:50:09 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:50:09 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:50:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-15 13:50:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:50:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:50:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:50:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:50:24 - [TEST_STEP][ERROR] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)' located by '//*[(text() = '
+				
+					ANTIBODY (Ab)
+				
+			' or . = '
+				
+					ANTIBODY (Ab)
+				
+			')]' not found
+
+2021-03-15 13:50:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:50:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '
+				
+					ANTIBODY (Ab)
+				
+			' or . = '
+				
+					ANTIBODY (Ab)
+				
+			')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)'. Try using Self-healing.
+
+2021-03-15 13:50:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]'.
+
+2021-03-15 13:50:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::div[1]'.
+
+2021-03-15 13:50:57 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::div[3]'.
+
+2021-03-15 13:50:57 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:50:57 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:50:57 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:50:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:50:58 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_ANTIBODY (Ab)' located by '//*[(text() = '
+				
+					ANTIBODY (Ab)
+				
+			' or . = '
+				
+					ANTIBODY (Ab)
+				
+			')]' not found
+
+2021-03-15 13:50:58 - [TEST_STEP][ERROR] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+
+2021-03-15 13:50:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:51:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:51:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)'. Try using Self-healing.
+
+2021-03-15 13:51:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:51:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]/div/a'.
+
+2021-03-15 13:51:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'ANTIBODY (Ab)')])[2]'.
+
+2021-03-15 13:51:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::a[1]'.
+
+2021-03-15 13:51:31 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::a[2]'.
+
+2021-03-15 13:51:31 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:51:31 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:51:31 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:51:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:51:32 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+
+2021-03-15 13:51:32 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)"), "ANTIBODY (Ab)"): Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-15 13:52:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)'. Try using Self-healing.
+
+2021-03-15 13:52:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[8]/div/a'.
+
+2021-03-15 13:52:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'ANTIBODY (Ab)')])[2]'.
+
+2021-03-15 13:52:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::a[1]'.
+
+2021-03-15 13:52:05 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MALARIA DIAGNOSTICS'])[2]/following::a[2]'.
+
+2021-03-15 13:52:05 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:52:05 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:5861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b5edcf310a87a150ad6664da95c9e36.
+
+2021-03-15 13:52:05 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:52:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:06 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787526648.png]]
+
+2021-03-15 13:52:07 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787526940.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-15 13:50:09 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIBODY (Ab)' located by '//*[(text() = 'ANTIBODY (Ab)' or . = 'ANTIBODY (Ab)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005" time="120.366" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-15 13:52:07 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-15 13:52:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:52:07 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:52:07 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:52:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-15 13:52:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:52:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:52:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:52:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:52:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			' or . = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			')]' not found
+
+2021-03-15 13:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:52:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			' or . = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)'. Try using Self-healing.
+
+2021-03-15 13:52:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]'.
+
+2021-03-15 13:52:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::div[1]'.
+
+2021-03-15 13:52:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::div[3]'.
+
+2021-03-15 13:52:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SELF-COLLECTION KIT'])[2]/preceding::div[2]'.
+
+2021-03-15 13:52:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div/div/div/div/div/div[9]'.
+
+2021-03-15 13:52:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:52:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			' or . = '
+				
+					MOLECULAR ASSAYS (NAT)
+				
+			')]' not found
+
+2021-03-15 13:52:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+
+2021-03-15 13:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:53:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:53:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)'. Try using Self-healing.
+
+2021-03-15 13:53:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:53:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]/div/a'.
+
+2021-03-15 13:53:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'MOLECULAR ASSAYS (NAT)')])[2]'.
+
+2021-03-15 13:53:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::a[1]'.
+
+2021-03-15 13:53:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::a[2]'.
+
+2021-03-15 13:53:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SELF-COLLECTION KIT'])[2]/preceding::a[1]'.
+
+2021-03-15 13:53:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SEQUENCING'])[2]/preceding::a[2]'.
+
+2021-03-15 13:53:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(@href, '/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6')])[2]'.
+
+2021-03-15 13:53:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/a'.
+
+2021-03-15 13:53:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:53:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+
+2021-03-15 13:53:31 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)"), "MOLECULAR ASSAYS (NAT)"): Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-15 13:54:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)'. Try using Self-healing.
+
+2021-03-15 13:54:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[9]/div/a'.
+
+2021-03-15 13:54:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'MOLECULAR ASSAYS (NAT)')])[2]'.
+
+2021-03-15 13:54:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::a[1]'.
+
+2021-03-15 13:54:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIGEN (Ag)'])[2]/following::a[2]'.
+
+2021-03-15 13:54:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SELF-COLLECTION KIT'])[2]/preceding::a[1]'.
+
+2021-03-15 13:54:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SEQUENCING'])[2]/preceding::a[2]'.
+
+2021-03-15 13:54:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(@href, '/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6')])[2]'.
+
+2021-03-15 13:54:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/a'.
+
+2021-03-15 13:54:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:07 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787647060.png]]
+
+2021-03-15 13:54:07 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787647314.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-15 13:52:07 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_MOLECULAR ASSAYS (NAT)' located by '//*[(text() = 'MOLECULAR ASSAYS (NAT)' or . = 'MOLECULAR ASSAYS (NAT)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006" time="117.914" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-15 13:54:07 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-15 13:54:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:54:07 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:54:07 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:54:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-15 13:54:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:54:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:54:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:54:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:54:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT' located by '//*[(text() = '
+				
+					SELF-COLLECTION KIT
+				
+			' or . = '
+				
+					SELF-COLLECTION KIT
+				
+			')]' not found
+
+2021-03-15 13:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:54:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '
+				
+					SELF-COLLECTION KIT
+				
+			' or . = '
+				
+					SELF-COLLECTION KIT
+				
+			')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT'. Try using Self-healing.
+
+2021-03-15 13:54:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]'.
+
+2021-03-15 13:54:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MOLECULAR ASSAYS (NAT)'])[2]/following::div[1]'.
+
+2021-03-15 13:54:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::div[3]'.
+
+2021-03-15 13:54:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SEQUENCING'])[2]/preceding::div[2]'.
+
+2021-03-15 13:54:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div/div/div/div/div/div[10]'.
+
+2021-03-15 13:54:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:54:55 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SELF-COLLECTION KIT' located by '//*[(text() = '
+				
+					SELF-COLLECTION KIT
+				
+			' or . = '
+				
+					SELF-COLLECTION KIT
+				
+			')]' not found
+
+2021-03-15 13:54:55 - [TEST_STEP][ERROR] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+
+2021-03-15 13:54:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:55:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:55:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT'. Try using Self-healing.
+
+2021-03-15 13:55:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:55:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]/div/a'.
+
+2021-03-15 13:55:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'SELF-COLLECTION KIT')])[2]'.
+
+2021-03-15 13:55:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MOLECULAR ASSAYS (NAT)'])[2]/following::a[1]'.
+
+2021-03-15 13:55:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::a[2]'.
+
+2021-03-15 13:55:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SEQUENCING'])[2]/preceding::a[1]'.
+
+2021-03-15 13:55:29 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::a[3]'.
+
+2021-03-15 13:55:29 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ced9054f17ac434ad6879a95912c7652.
+
+2021-03-15 13:55:29 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ced9054f17ac434ad6879a95912c7652.
+
+2021-03-15 13:55:29 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:55:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:55:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+
+2021-03-15 13:55:30 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT"), "SELF-COLLECTION KIT"): Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-15 13:56:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT'. Try using Self-healing.
+
+2021-03-15 13:56:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[10]/div/a'.
+
+2021-03-15 13:56:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'SELF-COLLECTION KIT')])[2]'.
+
+2021-03-15 13:56:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MOLECULAR ASSAYS (NAT)'])[2]/following::a[1]'.
+
+2021-03-15 13:56:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ANTIBODY (Ab)'])[2]/following::a[2]'.
+
+2021-03-15 13:56:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SEQUENCING'])[2]/preceding::a[1]'.
+
+2021-03-15 13:56:03 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::a[3]'.
+
+2021-03-15 13:56:03 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ced9054f17ac434ad6879a95912c7652.
+
+2021-03-15 13:56:03 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ced9054f17ac434ad6879a95912c7652.
+
+2021-03-15 13:56:03 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:56:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787764944.png]]
+
+2021-03-15 13:56:05 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787765228.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-15 13:54:07 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_006.run(TC_CAT_UI_006:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SELF-COLLECTION KIT' located by '//*[(text() = 'SELF-COLLECTION KIT' or . = 'SELF-COLLECTION KIT')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007" time="114.684" classname="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C &amp; HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-15 13:56:05 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-15 13:56:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:56:05 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-03-15 13:56:05 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:56:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-15 13:56:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 13:56:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 13:56:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/'
+
+2021-03-15 13:56:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-03-15 13:56:20 - [TEST_STEP][ERROR] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING"), 0): Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING' located by '//*[(text() = '
+				
+					SEQUENCING
+				
+			' or . = '
+				
+					SEQUENCING
+				
+			')]' not found
+
+2021-03-15 13:56:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:56:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '
+				
+					SEQUENCING
+				
+			' or . = '
+				
+					SEQUENCING
+				
+			')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING'. Try using Self-healing.
+
+2021-03-15 13:56:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[11]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[11]'.
+
+2021-03-15 13:56:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SELF-COLLECTION KIT'])[2]/following::div[1]'.
+
+2021-03-15 13:56:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MOLECULAR ASSAYS (NAT)'])[2]/following::div[3]'.
+
+2021-03-15 13:56:53 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::div[3]'.
+
+2021-03-15 13:56:53 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc4750988f9e54215560eb464f5cfcb8.
+
+2021-03-15 13:56:53 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: K:\Work\GitHub\UpdatedOne\find-category-footer-test\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Lexoter\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:6163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc4750988f9e54215560eb464f5cfcb8.
+
+2021-03-15 13:56:53 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-03-15 13:56:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:56:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/div_SEQUENCING' located by '//*[(text() = '
+				
+					SEQUENCING
+				
+			' or . = '
+				
+					SEQUENCING
+				
+			')]' not found
+
+2021-03-15 13:56:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING"), 0): Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is visible
+
+2021-03-15 13:56:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 13:57:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'SEQUENCING' or . = 'SEQUENCING')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:57:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING'. Try using Self-healing.
+
+2021-03-15 13:57:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[11]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:57:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react_0HM2UBJPPNECH']/div/div/div[2]/div/div/div/div/div/div[11]/div/a'.
+
+2021-03-15 13:57:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//a[contains(text(),'SEQUENCING')])[2]'.
+
+2021-03-15 13:57:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SELF-COLLECTION KIT'])[2]/following::a[1]'.
+
+2021-03-15 13:57:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MOLECULAR ASSAYS (NAT)'])[2]/following::a[2]'.
+
+2021-03-15 13:57:27 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::a[2]'.
+
+2021-03-15 13:57:28 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: K:/Work/GitHub/UpdatedOne/find-category-footer-test/Reports/Self-healing/Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING_neighbor.png
+
+2021-03-15 13:57:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::a[2]'.
+
+2021-03-15 13:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' is visible
+
+2021-03-15 13:57:28 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING"), "SEQUENCING"): Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-15 13:57:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'SEQUENCING' or . = 'SEQUENCING')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-15 13:57:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING'. Try using Self-healing.
+
+2021-03-15 13:57:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='NTD DIAGNOSTICS'])[3]/preceding::a[2]'.
+
+2021-03-15 13:57:59 - [MESSAGE][FAILED] - Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787879654.png]]
+
+2021-03-15 13:58:00 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210315_134626\\Homepage category test\\20210315_134626\\1615787879925.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-15 13:56:05 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'SEQUENCING' of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_SEQUENCING' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-15 13:46:38 - [TEST_SUITE][FAILED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-03-15 13:46:38 - [TEST_SUITE][FAILED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/COVID19/TC_CAT_UI_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at TC_CAT_UI_003.run(TC_CAT_UI_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615787186586.run(TempTestSuite1615787186586.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Extra Menu Objects COVID19/Page_diagnostics/a_ANTIGEN (Ag)' located by '//*[(text() = 'ANTIGEN (Ag)' or . = 'ANTIGEN (Ag)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
