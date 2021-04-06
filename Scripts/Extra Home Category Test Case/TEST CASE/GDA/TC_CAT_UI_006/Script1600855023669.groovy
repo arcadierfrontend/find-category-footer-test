@@ -19,13 +19,13 @@ WebUI.callTestCase(findTestCase('Extra Home Category Test Case/UTILITIES/OPEN_BR
 
 WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/div_NTD DIAGNOSTICS'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS'), 0)
 
-WebUI.verifyElementText(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS'), 'NTD DIAGNOSTICS')
+WebUI.verifyElementText(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS'), 'NTD DIAGNOSTICS')
 
-WebUI.verifyElementClickable(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS'))
+WebUI.verifyElementClickable(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS'))
 
-WebUI.click(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_NTD DIAGNOSTICS'))
+WebUI.click(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS'))
 
 WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search'), 0)
 

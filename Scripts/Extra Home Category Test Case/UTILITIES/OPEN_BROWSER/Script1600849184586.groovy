@@ -17,3 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://gdasandbox.test-arcadier.com/')
 
+WebUI.maximizeWindow()
+

@@ -17,18 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Extra Home Category Test Case/UTILITIES/OPEN_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/div_TUBERCULOSIS DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS'), 0)
 
-WebUI.verifyElementText(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS'), 'TUBERCULOSIS DIAGNOSTICS')
+WebUI.verifyElementText(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS'), 'COVID-19 DIAGNOSTICS')
 
-WebUI.verifyElementClickable(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS'))
+WebUI.verifyElementClickable(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS'))
 
-WebUI.click(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS'))
+WebUI.click(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS'))
 
-WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_Search'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS'), 0)
 
 WebUI.callTestCase(findTestCase('Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
