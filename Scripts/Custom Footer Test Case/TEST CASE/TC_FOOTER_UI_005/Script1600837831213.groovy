@@ -19,7 +19,7 @@ WebUI.callTestCase(findTestCase('Custom Footer Test Case/UTILITIES/OPEN_BROWSER'
 
 WebUI.waitForElementVisible(findTestObject('Complete Footer Object/Page_diagnostics/COMPANY Title'), 0)
 
-WebUI.verifyElementText(findTestObject('Complete Footer Object/Page_diagnostics/COMPANY Title'), 'COMPANY')
+WebUI.verifyElementText(findTestObject('Complete Footer Object/Page_diagnostics/COMPANY Title'), 'ORGANIZATION')
 
 WebUI.callTestCase(findTestCase('Custom Footer Test Case/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 

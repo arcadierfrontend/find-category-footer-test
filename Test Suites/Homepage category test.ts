@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3924472f-c827-456e-822d-d52231573e05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

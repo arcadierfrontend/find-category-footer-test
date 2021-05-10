@@ -21,11 +21,11 @@ WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnost
 
 WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'), 0)
 
-WebUI.verifyElementText(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'), 'HEPATITIS C & HIV DIAGNOSTICS')
+WebUI.verifyElementText(findTestObject('Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'), 'HEPATITIS C & HIV DIAGNOSTICS')
 
-WebUI.verifyElementClickable(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'))
+WebUI.verifyElementClickable(findTestObject('Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'))
 
-WebUI.click(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'))
+WebUI.click(findTestObject('Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS'))
 
 WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS_C _HIV_DIAGNOSTICS_Search'), 
     0)

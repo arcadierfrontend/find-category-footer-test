@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Homepage category test,Chrome 90.0.4430.93,,,2021-05-10 17:14:19,2021-05-10 17:17:33,3m - 14.493s,FAILED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001,Chrome 90.0.4430.93,,,2021-05-10 17:14:19,2021-05-10 17:15:06,46.342s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:14:19,2021-05-10 17:14:33,13.999s,PASSED
+"waitForElementVisible(findTestObject(""Extra Menu Objects GDA/Page_diagnostics/div_Section""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:14:33,2021-05-10 17:15:05,31.249s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:15:05,2021-05-10 17:15:06,0.851s,PASSED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002,Chrome 90.0.4430.93,,,2021-05-10 17:15:06,2021-05-10 17:15:48,42.688s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:15:06,2021-05-10 17:15:16,10.729s,PASSED
+"waitForElementVisible(findTestObject(""Extra Menu Objects GDA/Page_diagnostics/div_Row""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:15:16,2021-05-10 17:15:48,31.110s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:15:48,2021-05-10 17:15:48,0.684s,PASSED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003,Chrome 90.0.4430.93,,,2021-05-10 17:15:48,2021-05-10 17:16:04,16.131s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:15:48,2021-05-10 17:15:59,11.023s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:15:59,2021-05-10 17:16:00,0.420s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:00,2021-05-10 17:16:00,0.278s,PASSED
+"verifyElementText(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS""), ""COVID-19 DIAGNOSTICS"")",Chrome 90.0.4430.93,,,2021-05-10 17:16:00,2021-05-10 17:16:00,0.281s,PASSED
+"verifyElementClickable(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS""))",Chrome 90.0.4430.93,,,2021-05-10 17:16:00,2021-05-10 17:16:01,0.269s,PASSED
+"click(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS""))",Chrome 90.0.4430.93,,,2021-05-10 17:16:01,2021-05-10 17:16:03,1.904s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:03,2021-05-10 17:16:04,1.102s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:16:04,2021-05-10 17:16:04,0.706s,PASSED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004,Chrome 90.0.4430.93,,,2021-05-10 17:16:04,2021-05-10 17:16:18,13.842s,FAILED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:16:05,2021-05-10 17:16:17,12.172s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:17,2021-05-10 17:16:17,0.505s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:17,2021-05-10 17:16:17,0.275s,PASSED
+"verifyElementText(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS""), ""DIABETES DIAGNOSTICS"")",Chrome 90.0.4430.93,,,2021-05-10 17:16:17,2021-05-10 17:16:18,0.694s,FAILED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005,Chrome 90.0.4430.93,,,2021-05-10 17:16:18,2021-05-10 17:16:32,14.303s,FAILED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:16:18,2021-05-10 17:16:31,12.247s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:31,2021-05-10 17:16:31,0.748s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:31,2021-05-10 17:16:32,0.484s,PASSED
+"verifyElementText(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS""), ""HEPATITIS C & HIV DIAGNOSTICS"")",Chrome 90.0.4430.93,,,2021-05-10 17:16:32,2021-05-10 17:16:32,0.678s,FAILED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006,Chrome 90.0.4430.93,,,2021-05-10 17:16:32,2021-05-10 17:17:21,48.409s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:16:33,2021-05-10 17:16:46,12.935s,PASSED
+"waitForElementVisible(findTestObject(""Extra Menu Objects GDA/Page_diagnostics/div_NTD DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:16:46,2021-05-10 17:17:17,31.175s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:17:17,2021-05-10 17:17:17,0.275s,PASSED
+"verifyElementText(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS""), ""NTD DIAGNOSTICS"")",Chrome 90.0.4430.93,,,2021-05-10 17:17:17,2021-05-10 17:17:17,0.264s,PASSED
+"verifyElementClickable(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS""))",Chrome 90.0.4430.93,,,2021-05-10 17:17:17,2021-05-10 17:17:18,0.261s,PASSED
+"click(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS""))",Chrome 90.0.4430.93,,,2021-05-10 17:17:18,2021-05-10 17:17:19,1.468s,PASSED
+"waitForElementVisible(findTestObject(""Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:17:19,2021-05-10 17:17:20,1.176s,PASSED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:17:20,2021-05-10 17:17:21,0.705s,PASSED
+,,,,,,,
+Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007,Chrome 90.0.4430.93,,,2021-05-10 17:17:21,2021-05-10 17:17:33,12.543s,FAILED
+"callTestCase(findTestCase(""Extra Home Category Test Case/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 90.0.4430.93,,,2021-05-10 17:17:21,2021-05-10 17:17:32,10.715s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:17:32,2021-05-10 17:17:33,0.739s,PASSED
+"waitForElementVisible(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS""), 0)",Chrome 90.0.4430.93,,,2021-05-10 17:17:33,2021-05-10 17:17:33,0.270s,PASSED
+"verifyElementText(findTestObject(""Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS""), ""MALARIA DIAGNOSTICS"")",Chrome 90.0.4430.93,,,2021-05-10 17:17:33,2021-05-10 17:17:33,0.670s,FAILED

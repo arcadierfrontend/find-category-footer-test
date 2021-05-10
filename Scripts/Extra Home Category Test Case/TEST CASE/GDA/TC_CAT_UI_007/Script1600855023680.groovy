@@ -17,17 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Extra Home Category Test Case/UTILITIES/OPEN_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Staging/Page_diagnostics/li_MALARIA DIAGNOSTICS'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS'), 0)
 
-WebUI.verifyElementText(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS'), 'MALARIA DIAGNOSTICS')
+WebUI.verifyElementText(findTestObject('Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS'), 'MALARIA DIAGNOSTICS')
 
-WebUI.verifyElementClickable(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS'))
+WebUI.verifyElementClickable(findTestObject('Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS'))
 
-WebUI.click(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS'))
+WebUI.click(findTestObject('Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS'))
 
-WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS'), 0)
+WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_MALARIA_DIAGNOSTICS_Search'), 0)
 
 WebUI.callTestCase(findTestCase('Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 

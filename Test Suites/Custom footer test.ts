@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e5a2a3e4-7018-418c-87f4-5033b3b11c80</testSuiteGuid>
    <testCaseLink>
-      <guid>8e6fe22e-4eae-47f8-99fe-c449f293b91e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Custom Footer Test Case/Custom Footer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1249d0c8-39d9-4aa9-b4c0-cc554e42d930</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -21,11 +21,11 @@ WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnost
 
 WebUI.waitForElementVisible(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS'), 0)
 
-WebUI.verifyElementText(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS'), 'DIABETES DIAGNOSTICS')
+WebUI.verifyElementText(findTestObject('Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS'), 'DIABETES DIAGNOSTICS')
 
-WebUI.verifyElementClickable(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS'))
+WebUI.verifyElementClickable(findTestObject('Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS'))
 
-WebUI.click(findTestObject('Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS'))
+WebUI.click(findTestObject('Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS'))
 
 WebUI.waitForElementVisible(findTestObject('Extra Menu Objects GDA/Page_diagnostics/a_DIABETES_DIAGNOSTICS_Search'), 0)
 

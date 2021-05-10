@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage category test" time="195.512" tests="7" failures="3" errors="0">
+   <testsuite name="Homepage category test" tests="7" failures="3" errors="0" time="195.512" timestamp="2021-05-10 17:14:19" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Homepage category test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\execution0.log"/>
+         <property name="attachments" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638178255.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638178486.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638192579.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638192788.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638253541.png, K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638253748.png"/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 90.0.4430.93"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="d20bef51c88bd941f58ac7b1498513f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001" time="46.342" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:14:19 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001
+
+2021-05-10 17:14:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:14:20 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:14:20 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:14:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:14:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:14:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:14:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:14:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:14:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:14:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/div_Section"), 0): Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Section' located by 'div.section-content' not found
+
+2021-05-10 17:14:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:15:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.section-content'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-10 17:15:05 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Section' located by 'div.section-content' not found
+
+2021-05-10 17:15:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:15:05 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:15:05 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:15:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:15:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002" time="42.688" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:15:06 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002
+
+2021-05-10 17:15:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:15:06 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:15:06 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:15:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:15:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:15:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:15:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:15:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:15:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:15:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/div_Row"), 0): Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Row' located by 'div.section-content > div.row' not found
+
+2021-05-10 17:15:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:15:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.section-content > div.row'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-10 17:15:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Row' located by 'div.section-content > div.row' not found
+
+2021-05-10 17:15:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:15:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:15:48 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:15:48 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:15:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003" time="16.131" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:15:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003
+
+2021-05-10 17:15:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:15:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:15:48 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:15:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:15:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:15:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:15:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:15:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:15:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:15:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:15:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:16:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:16:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), "COVID-19 DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' are matched.
+
+2021-05-10 17:16:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' are matched.
+
+2021-05-10 17:16:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS")): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clickable
+
+2021-05-10 17:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clickable
+
+2021-05-10 17:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS")): Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clicked on
+
+2021-05-10 17:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clicked on
+
+2021-05-10 17:16:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:16:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:16:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:16:04 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:16:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:16:04 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:16:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004" time="13.842" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C &amp; HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-10 17:16:04 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-10 17:16:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:05 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:16:05 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:16:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:16:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:16:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:16:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:16:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:16:17 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS"), "DIABETES DIAGNOSTICS"): Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-05-10 17:16:18 - [MESSAGE][FAILED] - Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638178255.png]]
+
+2021-05-10 17:16:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638178486.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-10 17:16:04 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005" time="14.303" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C &amp; HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-10 17:16:18 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-10 17:16:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:18 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:16:18 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-10 17:16:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:16:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:16:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:16:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:16:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:16:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:16:32 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:16:32 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS"), "HEPATITIS C & HIV DIAGNOSTICS"): Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-05-10 17:16:32 - [MESSAGE][FAILED] - Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638192579.png]]
+
+2021-05-10 17:16:32 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638192788.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-10 17:16:18 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_005.run(TC_CAT_UI_005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'MALARIA DIAGNOSTICS' and expected text 'HEPATITIS C & HIV DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006" time="48.409" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:16:32 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006
+
+2021-05-10 17:16:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:33 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:16:33 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-10 17:16:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:16:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:16:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:16:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:16:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:16:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/div_NTD DIAGNOSTICS"), 0): Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_NTD DIAGNOSTICS' located by '//*[@class = 'col-md-3 col-sm-3 col-xs-6' and (text() = 'NTD DIAGNOSTICS' or . = 'NTD DIAGNOSTICS')]' not found
+
+2021-05-10 17:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:17:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'col-md-3 col-sm-3 col-xs-6' and (text() = 'NTD DIAGNOSTICS' or . = 'NTD DIAGNOSTICS')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-10 17:17:17 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_NTD DIAGNOSTICS' located by '//*[@class = 'col-md-3 col-sm-3 col-xs-6' and (text() = 'NTD DIAGNOSTICS' or . = 'NTD DIAGNOSTICS')]' not found
+
+2021-05-10 17:17:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:17:17 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:17:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS"), "NTD DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' are matched.
+
+2021-05-10 17:17:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' are matched.
+
+2021-05-10 17:17:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS")): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is clickable
+
+2021-05-10 17:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is clickable
+
+2021-05-10 17:17:18 - [TEST_STEP][PASSED] - click(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS")): Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is clicked on
+
+2021-05-10 17:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_NTD DIAGNOSTICS' is clicked on
+
+2021-05-10 17:17:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:17:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:17:20 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:17:20 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:17:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:17:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007" time="12.543" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-10 17:17:21 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-10 17:17:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:17:21 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:17:21 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:17:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:17:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:17:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:17:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:17:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:17:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:17:33 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS"), "MALARIA DIAGNOSTICS"): Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-05-10 17:17:33 - [MESSAGE][FAILED] - Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638253541.png]]
+
+2021-05-10 17:17:33 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_171406\\Homepage category test\\20210510_171406\\1620638253748.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-10 17:17:21 - [TEST_CASE][FAILED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_007.run(TC_CAT_UI_007:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'TUBERCULOSIS DIAGNOSTICS' and expected text 'MALARIA DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_MALARIA DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-10 17:14:19 - [TEST_SUITE][FAILED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-05-10 17:14:19 - [TEST_SUITE][FAILED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_CAT_UI_004.run(TC_CAT_UI_004:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620638046772.run(TempTestSuite1620638046772.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'HEPATITIS C & HIV DIAGNOSTICS' and expected text 'DIABETES DIAGNOSTICS' of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

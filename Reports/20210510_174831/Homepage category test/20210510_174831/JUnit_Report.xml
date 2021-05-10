@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage category test" time="201.795" tests="8" failures="0" errors="0">
+   <testsuite name="Homepage category test" tests="8" failures="0" errors="0" time="201.795" timestamp="2021-05-10 17:48:43" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Homepage category test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_174831\\Homepage category test\\20210510_174831"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\UpdatedOne\\find-category-footer-test\\Reports\\20210510_174831\\Homepage category test\\20210510_174831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 90.0.4430.93"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7a1489869aebd0ef2a62fec09594059a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001" time="47.71" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:48:43 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_001
+
+2021-05-10 17:48:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:48:43 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:48:44 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:48:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:48:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:48:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:48:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:48:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:48:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:48:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/div_Section"), 0): Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Section' located by 'div.section-content' not found
+
+2021-05-10 17:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:49:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.section-content'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-10 17:49:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Section' located by 'div.section-content' not found
+
+2021-05-10 17:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:49:30 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:49:30 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:49:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:49:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002" time="44.436" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:49:31 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_002
+
+2021-05-10 17:49:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:49:31 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:49:31 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:49:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:49:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:49:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:49:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:49:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:49:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:49:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/div_Row"), 0): Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Row' located by 'div.section-content > div.row' not found
+
+2021-05-10 17:49:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.section-content > div.row'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-10 17:50:15 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/div_Row' located by 'div.section-content > div.row' not found
+
+2021-05-10 17:50:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:50:15 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:50:15 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:50:15 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:50:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003" time="24.36" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:50:15 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_003
+
+2021-05-10 17:50:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:50:15 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:50:15 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:50:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:50:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:50:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:50:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:50:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:50:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:50:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), "COVID-19 DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' are matched.
+
+2021-05-10 17:50:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' are matched.
+
+2021-05-10 17:50:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS")): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clickable
+
+2021-05-10 17:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clickable
+
+2021-05-10 17:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS")): Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clicked on
+
+2021-05-10 17:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is clicked on
+
+2021-05-10 17:50:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_COVID-19 DIAGNOSTICS' is visible
+
+2021-05-10 17:50:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:50:39 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:50:39 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:50:40 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:50:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004" time="17.685" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:50:40 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_004
+
+2021-05-10 17:50:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:50:40 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:50:40 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:50:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:50:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:50:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:50:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:50:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:50:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:50:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:50:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_DIABETES DIAGNOSTICS' is visible
+
+2021-05-10 17:50:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS"), "DIABETES DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' are matched.
+
+2021-05-10 17:50:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' are matched.
+
+2021-05-10 17:50:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS")): Object 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' is clickable
+
+2021-05-10 17:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' is clickable
+
+2021-05-10 17:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS")): Object: 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' is clicked on
+
+2021-05-10 17:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Staging/Page_diagnostics/a_DIABETES DIAGNOSTICS' is clicked on
+
+2021-05-10 17:50:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_DIABETES_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_DIABETES_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_DIABETES_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:50:57 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:50:57 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:50:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:50:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005" time="16.311" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:50:57 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_005
+
+2021-05-10 17:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:50:57 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:50:58 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:50:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:50:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:51:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:51:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:51:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:51:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/li_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:51:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS"), 0): Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:51:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Updated GDA Extra Menu/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2021-05-10 17:51:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS"), "HEPATITIS C & HIV DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS")): Object 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS")): Object: 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Staging/Page_diagnostics/a_HEPATITIS C  HIV DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS_C _HIV_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS_C _HIV_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_HEPATITIS_C _HIV_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:51:13 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:51:13 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:51:14 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:51:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006" time="16.889" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:51:14 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_006
+
+2021-05-10 17:51:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:14 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:51:14 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:51:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:51:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:51:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/li_NTD DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/li_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/li_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:51:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/a_NTD DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is visible
+
+2021-05-10 17:51:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Staging/Page_diagnostics/a_NTD DIAGNOSTICS"), "NTD DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Staging/Page_diagnostics/a_NTD DIAGNOSTICS")): Object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:27 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Staging/Page_diagnostics/a_NTD DIAGNOSTICS")): Object: 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Staging/Page_diagnostics/a_NTD DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:30 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_NTD_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:51:30 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:51:30 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:51:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:51:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007" time="17.453" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:51:31 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_007
+
+2021-05-10 17:51:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:31 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:51:31 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:51:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:51:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:51:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:51:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/li_MALARIA DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/li_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/li_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:51:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is visible
+
+2021-05-10 17:51:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS"), "MALARIA DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' are matched.
+
+2021-05-10 17:51:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS")): Object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is clickable
+
+2021-05-10 17:51:44 - [TEST_STEP][PASSED] - click(findTestObject("Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS")): Object: 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Staging/Page_diagnostics/a_MALARIA DIAGNOSTICS' is clicked on
+
+2021-05-10 17:51:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_MALARIA_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_MALARIA_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:51:47 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_MALARIA_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:51:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:51:47 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:51:47 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:51:48 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:51:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008" time="16.511" classname="Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008" status="PASSED">
+         <system-out><![CDATA[2021-05-10 17:51:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008
+
+2021-05-10 17:51:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:48 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER
+
+2021-05-10 17:51:48 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-10 17:51:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-10 17:51:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2021-05-10 17:51:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-10 17:51:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-10 17:51:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/OPEN_BROWSER' successfully
+
+2021-05-10 17:51:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/li_TUBERCULOSIS DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/li_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2021-05-10 17:51:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/li_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2021-05-10 17:52:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS"), 0): Object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2021-05-10 17:52:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2021-05-10 17:52:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS"), "TUBERCULOSIS DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' are matched.
+
+2021-05-10 17:52:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' are matched.
+
+2021-05-10 17:52:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS")): Object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is clickable
+
+2021-05-10 17:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is clickable
+
+2021-05-10 17:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS")): Object: 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is clicked on
+
+2021-05-10 17:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Staging/Page_diagnostics/a_TUBERCULOSIS DIAGNOSTICS' is clicked on
+
+2021-05-10 17:52:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_Search"), 0): Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:52:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-10 17:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Menu Objects GDA/Page_diagnostics/a_TUBERCULOSIS_DIAGNOSTICS_Search' is visible
+
+2021-05-10 17:52:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully
+
+2021-05-10 17:52:04 - [TEST_CASE][PASSED] - Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER: Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER
+
+2021-05-10 17:52:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-05-10 17:52:04 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-10 17:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Extra Home Category Test Case/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-10 17:48:43 - [TEST_SUITE][PASSED] - Homepage category test: Test Cases/Extra Home Category Test Case/TEST CASE/GDA/TC_CAT_UI_008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

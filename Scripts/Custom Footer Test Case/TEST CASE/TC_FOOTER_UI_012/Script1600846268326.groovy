@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Custom Footer Test Case/UTILITIES/OPEN_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Complete Footer Object/Page_diagnostics/Twitter Link'), 0)
+WebUI.waitForElementVisible(findTestObject('Staging/Page_diagnostics/a_Twitter'), 0)
 
-WebUI.verifyElementText(findTestObject('Complete Footer Object/Page_diagnostics/Twitter Link'), 'Twitter')
+WebUI.verifyElementText(findTestObject('Staging/Page_diagnostics/a_Twitter'), 'Twitter')
 
-WebUI.verifyElementClickable(findTestObject('Complete Footer Object/Page_diagnostics/Twitter Link'))
+WebUI.verifyElementClickable(findTestObject('Staging/Page_diagnostics/a_Twitter'))
 
 WebUI.click(findTestObject('Complete Footer Object/Page_diagnostics/a_Accept Cookies'))
 
-WebUI.click(findTestObject('Complete Footer Object/Page_diagnostics/Twitter Link'))
+WebUI.click(findTestObject('Staging/Page_diagnostics/a_Twitter'))
 
 WebUI.callTestCase(findTestCase('Custom Footer Test Case/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
